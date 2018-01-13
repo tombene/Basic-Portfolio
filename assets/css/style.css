@@ -1,0 +1,12 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+footer {
+	text-align: center;
+}
+.myface {
+	width:200px;height:220px;
+}
