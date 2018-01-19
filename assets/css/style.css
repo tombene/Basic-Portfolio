@@ -1,12 +1,56 @@
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image:	url("assets/images/page-background.png");
 }
 header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: 0;
+	left: 0; 	
 }
 footer {
+	position:absolute;
+  bottom:0;
 	text-align: center;
+	background-color: #666666;
+	color: #a7a9bb;
+	right: 0;
+	left: 0;
+	height: 63px;
+	border-top: 10px solid #4aaaa5;
+}
+h1 {
+	color: #4aaaa5;
+}
+
+.headernavlinks {
+	color: #4aaaa5;
+}
+.headernavlinks a {
+	text-decoration: none;
+	color: #4aaaa5;
 }
 .myface {
 	width:200px;height:220px;
+}
+.content {
+	min-height: 100%;
+}
+.contentinside {
+	margin: auto;
+	width:	960px;
+}
+.mainsection {
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+}
+.sidebar {
+	width: 270px;
+	float: left;
+	background-color: #ffffff;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
 }
